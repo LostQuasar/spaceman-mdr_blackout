@@ -1,0 +1,10 @@
+{
+  "name": "mdr_blackout",
+  "author": "spaceman",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "spaceman-api": "1.0.0"
+  }
+}
