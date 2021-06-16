@@ -22,6 +22,7 @@ class MDR_300BLACKOUT_FDE {
         item._props.Slots[3]._props.filters[0].Filter = ["MDR_300BLACKOUT_BARREL"];
         item._props.Chambers[0]._props.filters[0].Filter = DatabaseServer.tables.templates.items["5fbcc1d9016cce60e8341ab3"]._props.Chambers[0]._props.filters[0].Filter;
         item._props.ammoCaliber = DatabaseServer.tables.templates.items["5fbcc1d9016cce60e8341ab3"]._props.ammoCaliber;
+        item._props.defAmmo = DatabaseServer.tables.templates.items["5fbcc1d9016cce60e8341ab3"]._props.defAmmo;
         DatabaseServer.tables.templates.items[itemId] = item;
 
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
